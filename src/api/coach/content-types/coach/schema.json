@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coaches",
+  "info": {
+    "singularName": "coach",
+    "pluralName": "coaches",
+    "displayName": "coach",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "isCoachInMovement": {
+      "type": "boolean"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

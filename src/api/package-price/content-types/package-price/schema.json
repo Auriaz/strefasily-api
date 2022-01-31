@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "package_prices",
+  "info": {
+    "singularName": "package-price",
+    "pluralName": "package-prices",
+    "displayName": "Price package",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    }
+  }
+}

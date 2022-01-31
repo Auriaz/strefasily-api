@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movies",
+  "info": {
+    "singularName": "movie",
+    "pluralName": "movies",
+    "displayName": "movie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quote": {
+      "type": "string"
+    },
+    "movie": {
+      "allowedTypes": [
+        "videos",
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

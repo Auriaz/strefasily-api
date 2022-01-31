@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_head_titles",
+  "info": {
+    "displayName": "Title",
+    "icon": "clinic-medical"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

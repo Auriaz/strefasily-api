@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movements",
+  "info": {
+    "singularName": "movement",
+    "pluralName": "movements",
+    "displayName": "Movement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "richtext"
+    },
+    "information": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::information.information"
+    },
+    "prices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::price.price"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity"
+    },
+    "coaches": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::coach.coach"
+    }
+  }
+}
